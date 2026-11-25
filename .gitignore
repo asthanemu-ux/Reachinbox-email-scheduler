@@ -1,0 +1,38 @@
+﻿# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# OAuth credentials
+client_secret*.json
+credentials.json
+
+# Private keys
+*.pem
+*.key
+
+# Logs
+*.log
+logs/
+
+# Database backups
+*.dump
+*.backup
+
+# IDE files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
